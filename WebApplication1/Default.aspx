@@ -5,7 +5,15 @@
     <main>
 
         <div class="row">
-            <asp:TextBox ID="TextBox1" runat="server" Height="16px" Width="99px"></asp:TextBox>
+            DISCOUNT CALCULATOR<br />
+            <br />
+          <h4 style="position:absolute; left:111px; top:172px;">
+              Price:
+          </h4>
+            <asp:Button ID="clcbtn1" runat="server" style="position:absolute; top: 199px; left: 198px; height: 25px; width: 80px; right: 819px;" Text="Calculate" />
+        </div>
+        <div style="position:absolute; left:150px; top:170px;">
+            <asp:TextBox ID="txtboxprice" runat="server" ></asp:TextBox>
         </div>
     </main>
 
