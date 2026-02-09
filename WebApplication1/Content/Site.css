@@ -10,7 +10,7 @@
 input,
 select,
 textarea {
-    max-width: 80px;
+    max-width: 200px;
 }
 
 /* Responsive: Portrait tablets and up */
@@ -18,4 +18,43 @@ textarea {
     .body-content {
         padding: 0;
     }
+}
+
+h1 {
+    position: absolute;
+    top: 162px;
+    left: 377px;
+}
+
+.clkbtn {
+    position: absolute;
+    top: 232px; 
+    left: 631px; 
+    height: 23px; 
+    width: 80px; 
+    right: 386px;
+}
+.price-lbl {
+    position:absolute; 
+    font-size:20px;
+    top: 229px;
+    left: 442px;
+    height: 20px;
+    margin-top: 3px;
+}
+
+.discount-lbl {
+    position: absolute;
+    font-size: 20px;
+    top: 263px;
+    left: 415px;
+    margin-top: 0px;
+}
+
+.selling-price-lbl {
+    position: absolute;
+    font-size: 20px;
+    top: 295px;
+    left: 347px;
+    margin-top: 1px;
 }

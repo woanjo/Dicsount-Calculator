@@ -5,19 +5,17 @@
     <main>
 
         <div class="row">
-            <h1 style="position:absolute; top: 162px; left: 373px;"><b>DISCOUNT CALCULATOR</b></h1>
+            <h1><b>DISCOUNT CALCULATOR</b></h1>
             <br />
             <br />
-            <asp:TextBox ID="txtboxprice" runat="server" style="position:absolute; top: 236px; left: 438px; height: 20px; right: 531px;"></asp:TextBox>
-            <asp:Button ID="clcbtn1" runat="server" style="position:absolute; top: 237px; left: 578px; height: 23px; width: 80px; right: 439px;" Text="Calculate" />
+            <asp:TextBox ID="txtboxprice" runat="server" style="position:absolute; top: 230px; left: 496px; height: 20px; right: 711px;"></asp:TextBox>
+            <asp:Button ID="clcbtn1" runat="server" CssClass="clkbtn" Text="Calculate" OnClick="clcbtn1_Click"/>
+            <asp:Label ID="lblPrice" runat="server" CssClass="price-lbl">Price:</asp:Label>
+            <asp:Label ID="lblDiscount" runat="server" CssClass="discount-lbl">Discount: </asp:Label>
+            <asp:Label ID="lblSellingPrice" runat="server" CssClass="selling-price-lbl">Discounted Price:</asp:Label>
+
         </div>
-        <div>
-          <h4 style="position:absolute; left:391px; top:239px; width: 41px; height: 19px;">
-              Price:
-            </h4>
-        </div>
-        <div style="position:absolute; left:150px; top:170px;">
-        </div>
+
     </main>
 
 </asp:Content>

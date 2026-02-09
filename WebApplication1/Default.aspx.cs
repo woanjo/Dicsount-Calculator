@@ -14,14 +14,14 @@ namespace WebApplication1
 
         }
 
-        protected void TextBox1_TextChanged(object sender, EventArgs e)
+        protected void clcbtn1_Click(object sender, EventArgs e)
         {
-            
-        }
+            double price = Convert.ToDouble(txtboxprice.Text);
+            double discount = price * 0.15;
+            double selling_price = price - discount;
 
-        protected void TextBox1_TextChanged1(object sender, EventArgs e)
-        {
-
+            lblDiscount.Text = "Discount Amount: " + discount.ToString("C");
+            lblSellingPrice.Text = "Selling Price: " + selling_price.ToString("C");
         }
     }
 }
