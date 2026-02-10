@@ -15,13 +15,22 @@ namespace WebApplication1
     {
 
         /// <summary>
-        /// txtboxprice control.
+        /// lblPrice control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtboxprice;
+        protected global::System.Web.UI.WebControls.Label lblPrice;
+
+        /// <summary>
+        /// txtbox1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtbox1;
 
         /// <summary>
         /// clcbtn1 control.
@@ -31,15 +40,6 @@ namespace WebApplication1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button clcbtn1;
-
-        /// <summary>
-        /// lblPrice control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPrice;
 
         /// <summary>
         /// lblDiscount control.

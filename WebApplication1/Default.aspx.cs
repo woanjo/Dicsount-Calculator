@@ -16,7 +16,7 @@ namespace WebApplication1
 
         protected void clcbtn1_Click(object sender, EventArgs e)
         {
-            double price = Convert.ToDouble(txtboxprice.Text);
+            double price = Convert.ToDouble(txtbox1.Text);
             double discount = price * 0.15;
             double selling_price = price - discount;
 
